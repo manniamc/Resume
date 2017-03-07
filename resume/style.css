@@ -1,0 +1,308 @@
+body
+
+{
+  background-color: #ff7143;
+
+  color:#fff;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+
+  line-height: 1.5;
+
+  font-size:15px;  
+}
+
+.navbar
+  
+{
+
+    margin-bottom: 0;
+
+    border-radius: 0;
+  
+}
+
+
+/* ................................Intro.....................*/
+
+#about
+
+{
+
+  padding-top: 100px;
+
+  padding-bottom:100px;
+
+}
+
+#about  img
+
+{
+
+  border-radius: 50%;
+
+   box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+}
+
+#about  button
+
+{
+  margin: 10px;
+
+  height:120px;
+
+  width:120px;
+
+  border-radius: 50%;
+
+  color:white;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  -webkit-transition-duration: 0.9s; /* Safari */
+
+  transition-duration: 1s;
+
+  transition: width height 2s;
+
+  outline: none;
+
+  border:none;
+
+  margin-bottom: 30px;
+
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+}
+
+#about button:hover
+
+{
+ 
+width:130px;
+ height:130px;
+ background:black;
+ color:#ff0066;
+}
+
+.mr{background-color:#673AB7;}
+.ms{background-color: #33cc33;}
+
+.mw{background-color: #ff0066;}
+
+
+/* .................................Resume.....................*/
+
+#m1
+{
+  display: none;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#m1 button
+{
+  height:70px;
+  width:200px;
+  font-size: 25px;
+}
+
+#panel1,#panel2,#panel3
+{
+color: black;
+ }
+ 
+#m1 a
+ {
+   text-decoration: none;
+   font-size: 20px;
+}
+
+/*.progress
+{
+   height:50px;
+   border-radius:0;
+   border:1px solid black;
+   background: #9E9E9E;
+}
+
+.progress-bar
+{
+  background:#ff7143;
+  font-size:25px;
+  color:#000;
+  text-align: left;
+  padding-top:10px;
+}
+
+*/
+#apane1,#apane2,#apane3
+{display:none;}
+
+#download
+{
+  font-size: 20px;
+  color: #fff;
+  background-color:#212121;
+}
+
+#download :hover
+{
+  color: #ff5050;
+}
+.panel-group{color:black;}
+
+
+
+/* ................................Project....................*/
+
+#m2
+{
+  display: none;
+  border-bottom:1px solid white;
+  padding: 20px;
+  color:#000;
+}
+
+#m2 div i
+{
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+}
+
+#panelpro
+{
+  
+  background: #311B92;
+  color:#fff;
+  text-align: center;
+}
+
+#panelpro a
+{
+  text-decoration:none;
+  font-size:20px;
+}
+
+
+/* .................................Contact.....................*/
+
+#m3
+
+{
+
+   background-color:  #CDDC39;
+ width: 100%;
+  color:#fafafa;
+  padding:30px 0 30px 0;
+
+
+  display:none; 
+ 
+}
+
+#m3 i
+
+{
+ 
+  font-size: 40px;
+  
+   color:black;
+
+   padding:10px;
+
+}
+
+#m3 i:hover
+
+{
+
+  color:#ff0066;
+
+}
+
+#m3 form
+
+{
+
+ width:350px;
+ border:2px solid #ff0066;
+
+ border-radius: 5px;
+
+ padding: 15px;
+
+ color: #000;
+ 
+ margin:0 auto;
+}
+
+
+#contactfrm i
+{
+  font-size:15px; 
+  text-align:left;
+}
+
+#m3 form input,textarea
+
+{
+
+    width: 100%;
+
+    padding: 10px 10px;
+
+ 
+   display: inline-block;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    margin-bottom:8px;
+}
+
+#m3 form input[type='submit']
+
+{
+
+   border:1px solid #000;
+
+  background-color: #E91E63;
+
+  color:white;
+
+}
+
+#m3 form input[type='submit']:hover
+
+{
+
+  background: #ff0066;
+
+  border: 2px solid #fff;
+
+}
+  
+/* ................................footer.....................*/
+
+#footer
+{
+  background-color: #212121;
+ }
+.col-sm-3
+{
+  padding-top:10px;
+  padding-bottom:10px;
+  border:0.5px solid white;
+}
+
+
+	
